@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>{{art[1]}}</h1>
+    <small>Written by {{art[2]}} </small>
+    <div>
+        {{art[3] | safe}}
+    </div>
+{% endblock %}
